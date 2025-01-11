@@ -21,7 +21,7 @@ import React, { useState, useEffect } from 'react';
         }
       });
 
-      const [timeLeft, setTimeLeft] = useState(600); // Total quiz time in seconds (10 minutes)
+      const [timeLeft, setTimeLeft] = useState(240); // Total quiz time in seconds (10 minutes)
       const [quizEndedByTime, setQuizEndedByTime] = useState(false);
       const [quizPassed, setQuizPassed] = useState(false);
 
